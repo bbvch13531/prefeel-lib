@@ -1,28 +1,22 @@
-require('dotenv').config();
+import dotenv from 'dotenv';
 
 // load environment variables
 const {
-  PORT: port
+  PORT: port,
+  MONGO_URI: mongoURI
 } = process.env;
 
-const Koa = require('koa');
-const Router = require('koa-router');
+import http from 'http';
+import express from 'express';
+import bodyParser from 'body-parser';
 
-const api = require('./api');
-const db = require('./db');
+import api from './api';
+import db from './db';
 
 db.connect();
-const app = new Koa();
+const app = express();
 
-const router = new Router();
-router.use('/api', api.routes());
-
-app.use(router.routes());
-app.use(router.allowedMethods());
-
-app.use(ctx => {
-  ctx.body = 'Hello prefeel-lib';
-});
+app.use('/api', api);
 
 app.listen(port, () => {
   console.log(`The server is listening to port ${port}`);

@@ -1,9 +1,10 @@
-const Router = require('koa-router');
+import express from 'express';
+import * as ctrl from './auth.ctrl.js';
 
-const auth = new Router();
+const router = express.Router();
 
-auth.get('/', (ctx) => {
-  ctx.body = 'Router setting complele!';
-});
+router.get('/getEx', ctrl.getEx);
+router.post('/postEx', ctrl.postEx);
+router.delete('/deleteEx', ctrl.deleteEx);
 
-module.exports = auth;
+export default router;

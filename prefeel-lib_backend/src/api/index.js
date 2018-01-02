@@ -1,10 +1,12 @@
-const Router = require('koa-router');
+import express from 'express';
+import v1_0 from './v1.0';
+
 const versions = {
-  '1.0': require('./v1.0')
+  '1.0': v1_0
 };
 
-const api = new Router();
+const router = express.Router();
 
-api.use('/v1.0', versions['1.0'].routes());
+router.use('/v1.0', versions['1.0']);
 
-module.exports = api;
+export default router;

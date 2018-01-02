@@ -1,13 +1,13 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const {
   MONGO_URI: mongoURI
 } = process.env;
 
-module.exports = (function () {
+export default (function () {
   return {
     connect () {
-      mongoose.createConnection(mongoURI, {
+      return mongoose.createConnection(mongoURI, {
         useMongoClient: true
       }).then(
         () => {
@@ -18,6 +18,9 @@ module.exports = (function () {
           console.error(err);
         }
       );
+    },
+    disconnect () {
+      return mongoose.disconnect();
     }
   };
 })();
