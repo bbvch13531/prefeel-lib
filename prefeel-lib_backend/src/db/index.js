@@ -5,9 +5,10 @@ const {
 } = process.env;
 
 export default (function () {
+  mongoose.Promise = global.Promise;
   return {
     connect () {
-      return mongoose.createConnection(mongoURI, {
+      return mongoose.connect(mongoURI, {
         useMongoClient: true
       }).then(
         () => {

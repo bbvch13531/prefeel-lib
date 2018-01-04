@@ -1,8 +1,8 @@
 import express from 'express';
-import v1_0 from './v1.0';
+import v1 from './v1.0';
 
 const versions = {
-  '1.0': v1_0
+  '1.0': v1
 };
 
 const router = express.Router();
