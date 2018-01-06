@@ -11,10 +11,6 @@
 - User setting convention's lint check
 - Team member can practice agreed coding convention through typing libraries
 
-logo
-gif images
-
-
 ## How to use
 
 ## Bug report
