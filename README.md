@@ -18,7 +18,7 @@ gif images
 ## How to use
 
 ## Bug report
-Any bug report via github issue is welcome
+Any bug report via [github issue](https://github.com/bbvch13531/prefeel-lib/issues) is welcome
 ## How to Contribute
 
 prefeel-lib strictly follows [JavaScript Standard Style](https://standardjs.com/)
