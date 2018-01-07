@@ -1,4 +1,4 @@
-import User from './../../../db/models/user.js'
+import User from './../../../db/models/user.js';
 
 // GET /api/v1.0/auth
 export const getEx = async (req, res) => {
@@ -9,7 +9,7 @@ export const getEx = async (req, res) => {
   } catch (err) {
     throw err;
   }
-}
+};
 
 // POST /api/v1.0/auth
 export const postEx = async (req, res) => {
@@ -20,7 +20,7 @@ export const postEx = async (req, res) => {
   } catch (err) {
     throw err;
   }
-}
+};
 
 // DELETE /api/v1.0/auth
 export const deleteEx = async (req, res) => {
@@ -31,4 +31,4 @@ export const deleteEx = async (req, res) => {
   } catch (err) {
     throw err;
   }
-}
+};
