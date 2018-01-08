@@ -1,5 +1,5 @@
 # prefeel-lib
-![License](https://img.shields.io/github/license/mashape/apistatus.svg)
+![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![BuildStatus](https://travis-ci.org/bbvch13531/prefeel-lib.svg?branch=master)
 
 ## Introduction
  **prefeel-lib** is a web application for team project that allow team members to practice several libraries to adjust coding convention and library.  
