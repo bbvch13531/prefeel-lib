@@ -1,5 +1,5 @@
 # prefeel-lib
-![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![BuildStatus](https://travis-ci.org/bbvch13531/prefeel-lib.svg?branch=master)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bbvch13531/prefeel-lib/blob/master/LICENSE)  [![BuildStatus](https://travis-ci.org/bbvch13531/prefeel-lib.svg?branch=master)](https://travis-ci.org/bbvch13531/prefeel-lib)  [![npm Version](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/)  [![node Version](https://img.shields.io/badge/node->=8-brightgreen.svg)](https://www.npmjs.com/)  [![Project Version](https://img.shields.io/badge/release-v0.0.1-brightgreen.svg)](https://github.com/bbvch13531/prefeel-lib)
 
 ## Introduction
  **prefeel-lib** is a web application for team project that allow team members to practice several libraries to adjust coding convention and library.  
