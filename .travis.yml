@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - "8"
+
+env:
+  - CI_DIR=prefeel-lib_backend
+  - CI_DIR=prefeel-lib_frontend
+
+script: cd $CI_DIR && npm install
