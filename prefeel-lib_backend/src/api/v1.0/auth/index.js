@@ -7,4 +7,8 @@ router.get('/getEx', ctrl.getEx);
 router.post('/postEx', ctrl.postEx);
 router.delete('/deleteEx', ctrl.deleteEx);
 
+router.post('/userSignIn', ctrl.userSignIn);
+router.post('/userSignUp', ctrl.userSignUp);
+router.get('/userSignOut', ctrl.userSignOut);
+
 export default router;
