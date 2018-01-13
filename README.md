@@ -1,5 +1,5 @@
 <div align="middle">
-<img src="https://lh5.googleusercontent.com/Fkf-ogyX-yI8mTUGMhqwsVnVfAtfRSPtoTph5UifsKQLw9K98rxTbRC8pzsIOddoPkSTm5LkEpjUH6MdBSMf=w3278-h1692" height="250px" >
+<img src="https://www.dropbox.com/s/wnfkbfnte89zwwy/prefeel-lib_logo.png?raw=1" height="250px" >
 </div>
 
 <h1 align="center">prefeel-lib</h1>
@@ -10,18 +10,17 @@
 	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/npm/v/npm.svg">
 	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/node->=8-brightgreen.svg">
 	<a href="https://github.com/bbvch13531/prefeel-lib"><img src="https://img.shields.io/badge/release-v0.0.1-brightgreen.svg">
-
 </p>
 
 ##  Introduction
  **prefeel-lib** is a web application for team project that allow team members to practice several libraries to adjust coding convention and library.  
 Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to typing example code and choosing library. Developers who use this project would practice typing agreed coding convention before team project get started.
+
 ## Feature
 - Team member can practice agreed coding convention through typing librarie's example code. 
 	- Setting coding convention option 
 	- Language
 	- Library 
-
 
 ## How to use
 
@@ -37,8 +36,6 @@ prefeel-lib strictly follows [Airbnb Javascript Style Guide](https://github.com/
 - Kyungyoung Heo, https://github.com/bbvch13531, bbvch13531@gmail.com
 
 ## Collaborator
-
-	
 
 ## License
 prefeel-lib is licensed under the MIT license.
