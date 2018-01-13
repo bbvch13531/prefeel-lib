@@ -1,7 +1,18 @@
-# prefeel-lib
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bbvch13531/prefeel-lib/blob/master/LICENSE)  [![BuildStatus](https://travis-ci.org/bbvch13531/prefeel-lib.svg?branch=master)](https://travis-ci.org/bbvch13531/prefeel-lib)  [![npm Version](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/)  [![node Version](https://img.shields.io/badge/node->=8-brightgreen.svg)](https://www.npmjs.com/)  [![Project Version](https://img.shields.io/badge/release-v0.0.1-brightgreen.svg)](https://github.com/bbvch13531/prefeel-lib)
+<div align="middle">
+<img src="https://lh5.googleusercontent.com/Fkf-ogyX-yI8mTUGMhqwsVnVfAtfRSPtoTph5UifsKQLw9K98rxTbRC8pzsIOddoPkSTm5LkEpjUH6MdBSMf=w3278-h1692" height="250px" >
+</div>
 
-## Introduction
+<h1 align="center">prefeel-lib</h1>
+
+<p align="center">
+	<a href="https://github.com/bbvch13531/prefeel-lib/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+	<a href="https://travis-ci.org/bbvch13531/prefeel-lib"><img src="https://travis-ci.org/bbvch13531/prefeel-lib.svg?branch=master">
+	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/npm/v/npm.svg">
+	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/node->=8-brightgreen.svg">
+	<a href="https://github.com/bbvch13531/prefeel-lib"><img src="https://img.shields.io/badge/release-v0.0.1-brightgreen.svg">
+</p>
+
+##  Introduction
  **prefeel-lib** is a web application for team project that allow team members to practice several libraries to adjust coding convention and library.  
 Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to typing example code and choosing library. Developers who use this project would practice typing agreed coding convention before team project get started.
 ## Feature
@@ -16,7 +27,7 @@ Developers have in trouble in choosing library because it is hard to understand 
 ## Bug report
 Any bug report via [github issue](https://github.com/bbvch13531/prefeel-lib/issues) is welcome!
 
-## How to Contribute
+##  How to Contribute
 Please read CONTRIBUTING.md first.
 prefeel-lib strictly follows [JavaScript Standard Style.](https://standardjs.com/)
 ## Founders
@@ -26,9 +37,10 @@ prefeel-lib strictly follows [JavaScript Standard Style.](https://standardjs.com
 
 ## Collaborator
 
-
+	
 
 ## License
+prefeel-lib is licensed under the MIT license.
 ```
 The MIT License (MIT)
 
