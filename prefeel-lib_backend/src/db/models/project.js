@@ -1,14 +1,15 @@
 import mongoose, { Schema } from 'mongoose';
 
-let jsFile = new Schema({
-  name: String
+let FileInfo = new Schema({
+  fileName: String,
+  content: String
 });
 
-let Directory = new Schema({
-  name: String,
-  files: [jsFile]
+let DirectoryInfo = new Schema({
+  directoryName: String,
+  file: [FileInfo]
 });
 
-Directory.add({folder: [Directory]});
+DirectoryInfo.add({directory: [DirectoryInfo]});
 
-export default mongoose.model('Project', Directory, 'Project');
+export default mongoose.model('Project', DirectoryInfo, 'Project');
