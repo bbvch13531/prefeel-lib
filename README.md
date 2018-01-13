@@ -10,6 +10,7 @@
 	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/npm/v/npm.svg">
 	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/node->=8-brightgreen.svg">
 	<a href="https://github.com/bbvch13531/prefeel-lib"><img src="https://img.shields.io/badge/release-v0.0.1-brightgreen.svg">
+
 </p>
 
 ##  Introduction
@@ -29,7 +30,7 @@ Any bug report via [github issue](https://github.com/bbvch13531/prefeel-lib/issu
 
 ##  How to Contribute
 Please read CONTRIBUTING.md first.
-prefeel-lib strictly follows [JavaScript Standard Style.](https://standardjs.com/)
+prefeel-lib strictly follows [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 ## Founders
 - Daeho Kim, https://github.com/oh3vci, oh3vci@gmail.com
 - Woochan Lee, https://github.com/WoochanLee, dldncks93@gmail.com
