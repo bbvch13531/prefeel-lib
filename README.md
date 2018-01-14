@@ -1,5 +1,5 @@
 <div align="middle">
-<img src="https://www.dropbox.com/s/wnfkbfnte89zwwy/prefeel-lib_logo.png?raw=1" height="250px" >
+<img src="https://www.dropbox.com/s/hxisnnhvfxhzd2u/prefeel-lib_logo.png?raw=1" height="250px" >
 </div>
 
 <h1 align="center">prefeel-lib</h1>
