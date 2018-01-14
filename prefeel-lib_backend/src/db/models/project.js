@@ -7,7 +7,8 @@ let FileInfo = new Schema({
 
 let DirectoryInfo = new Schema({
   directoryName: String,
-  file: [FileInfo]
+  file: [FileInfo],
+  path: String
 });
 
 DirectoryInfo.add({directory: [DirectoryInfo]});
