@@ -38,9 +38,4 @@ prefeel-lib strictly follows [Airbnb Javascript Style Guide](https://github.com/
 ## Collaborator
 
 ## License
-prefeel-lib is licensed under the MIT license.
-```
-The MIT License (MIT)
-
-Copyright (c) 2018 oh3vci, dldncks93, bbvch13531
-```
+prefeel-lib is licensed under the GNU GENERAL PUBLIC LICENSE.
