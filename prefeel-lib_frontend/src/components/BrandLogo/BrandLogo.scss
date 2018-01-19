@@ -1,0 +1,27 @@
+.logo-wrapper {
+  position: relative;
+  float: left;
+  vertical-align: middle;
+  cursor: pointer;
+
+  .logo {
+    color: #202122;
+
+    &:visited, &:link {
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      color: #505050;
+    }
+  }
+
+  .logo-image {
+    vertical-align: middle;
+    height: 2.5rem;
+  }
+
+  .logo-text {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
