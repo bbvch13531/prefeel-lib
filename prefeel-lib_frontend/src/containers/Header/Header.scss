@@ -1,0 +1,42 @@
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+  height: 3.5rem;
+  align-items: center;
+  background: #fafafa;
+  box-shadow: 1px 1px rgba(0,0,0,0.14);
+
+  .logo-wrapper {
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+
+    .logo {
+      color: #202122;
+
+      &:visited, &:link {
+        text-decoration: none;
+      }
+      &:hover, &:active {
+        color: #505050;
+      }
+    }
+
+    .logo-image {
+      vertical-align: middle;
+      height: 2.5rem;
+    }
+
+    .logo-text {
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
+    }
+  }
+}
