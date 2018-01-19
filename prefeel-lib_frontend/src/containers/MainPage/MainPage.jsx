@@ -24,6 +24,11 @@ class MainPage extends React.Component {
             A web application for practicing several libraries
           </p>
         </div>
+        <div className="library-searchbar">
+          <label className="library-searchbar-label">
+            <input type="text" placeholder="Search library"></input>
+          </label>
+        </div>
       </div>
     );
   }

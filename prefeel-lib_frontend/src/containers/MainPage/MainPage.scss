@@ -4,7 +4,7 @@
 
 .main-header {
   padding-top: 4rem;
-  padding-bottom: 4.5rem;
+  padding-bottom: 2.5rem;
   margin: 0 auto;
   text-align: center;
 
@@ -18,5 +18,35 @@
     padding-top: 0.8rem;
     font-weight: 300;
     font-size: 1.4rem;
+  }
+}
+
+.library-searchbar {
+  text-align: center;
+
+  label {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      left: 0.8rem;
+      top: 0;
+      bottom: 0;
+      content: '';
+      width: 20px;
+      background: url('/static/svg/search-icon.svg') no-repeat;
+    }
+  }
+
+  input {
+    border: none;
+    width: 32rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 0 0 2.5rem;
+
+    &::placeholder {
+      color: #e0e0e0;
+    }
   }
 }
