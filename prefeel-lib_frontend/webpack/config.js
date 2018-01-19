@@ -6,7 +6,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const paths = {
   SRC: path.join(__dirname, '../src'),
   BUILD: path.join(__dirname, '../build'),
-  STYLE: path.join(__dirname, '../src/style/'),
   STATIC: path.join(__dirname, '../src/static/'),
   FONT: path.join(__dirname, '../src/static/font/'),
   IMG: path.join(__dirname, '../src/static/img'),
@@ -191,7 +190,6 @@ const resolve = {
     path.join(__dirname, '../node_modules'),
     paths.SRC,
     paths.STATIC,
-    paths.STYLE,
   ],
 };
 
