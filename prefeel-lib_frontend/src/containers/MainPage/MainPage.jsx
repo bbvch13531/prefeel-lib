@@ -15,8 +15,15 @@ const mapDispatchToProps = (dispatch) => ({
 class MainPage extends React.Component {
   render () {
     return (
-      <div>
-        MainPage
+      <div className="main-page">
+        <div className="main-header">
+          <h1>
+            prefeel-lib
+          </h1>
+          <p>
+            A web application for practicing several libraries
+          </p>
+        </div>
       </div>
     );
   }
