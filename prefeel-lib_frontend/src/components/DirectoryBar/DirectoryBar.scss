@@ -1,0 +1,9 @@
+.directory-bar {
+  position: absolute;
+  left: -300px;
+  width: 300px;
+
+  .open {
+    left: 0;
+  }
+}
