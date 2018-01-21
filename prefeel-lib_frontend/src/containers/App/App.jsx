@@ -5,19 +5,18 @@ import styles from './App.scss';
 
 import Header from 'containers/Header';
 import MainPage from 'containers/MainPage';
+import LibraryPage from 'containers/LibraryPage';
 import PracticePage from 'containers/PracticePage';
-import ProjectPage from 'containers/ProjectPage';
 
 class App extends React.Component {
-
   render() {
     return (
       <div className='App'>
         <Header />
         <Switch>
           <Route exact path='/' component={MainPage} />
+          <Route path='/library/:library' component={LibraryPage} />
           <Route path='/practice' component={PracticePage} />
-          <Route path='/project' component={ProjectPage} />
         </Switch>
       </div>
     );
