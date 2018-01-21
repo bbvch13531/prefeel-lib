@@ -18,7 +18,7 @@ const mapDispatchToProps = (dispatch) => ({
 class Header extends React.Component {
   render () {
     return (
-      <header>
+      <header id="header">
         <BrandLogo
           brandName="prefeel-lib"
         />
