@@ -1,42 +1,31 @@
 import React from 'react';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Axios from 'axios';
-
 import styles from './MainPage.scss';
+import { getLibraries } from 'actions/main';
+
+import LibraryCard from 'components/LibraryCard';
 
 const mapStateToProps = (state) => {
   return {
-    library: state.library,
+    libraries: state.main.get('libraries'),
   }
 };
-const mapDispatchToProps = (dispatch) => ({
 
-});
+const mapDispatchToProps = (dispatch) => {
+  return bindActionCreators({
+    getLibraries: getLibraries,
+  }, dispatch);
+};
 
 class MainPage extends React.Component {
-
-  constructor(){
-    super();
-    this.state={
-      libraries:[]
-    }
+  componentWillMount(){
+    this.props.getLibraries();
   }
-
-  componentDidMount(){
-    let resdata;  
-    Axios.get('/api/v1.0/Library')
-      .then(async (response) => {
-        resdata=response.data.libraries;
-        this.setState({
-          libraries:resdata
-        });
-      })
-      .catch((error) =>{
-        console.log("error: "+error);
-    })
-  }
-
+  
   render () {
+    const { libraries, showLibrary } = this.props;
+    console.log(libraries);
     return (
       <div className="main-page">
         <div className="main-header">
@@ -47,21 +36,33 @@ class MainPage extends React.Component {
             A web application for practicing several libraries
           </p>
         </div>
-        <div className="library-searchbar">
-          <label className="library-searchbar-label">
-            <input type="text" placeholder="Search library"></input>
-          </label>
+        <div className="main-body">
+          <div className="library-searchbar">
+            <label className="library-searchbar-label">
+              <input type="text" placeholder="Search library"></input>
+            </label>
+          </div>
+          <div className="library-cards">
+            {
+              libraries.map(
+                ({
+                  _id,
+                  name,
+                  language,
+                  description
+                }) =>
+                <LibraryCard
+                  key={_id}
+                  libraryName={name}
+                  description={description}
+                />
+              )
+            }
+          </div>
         </div>
       </div>
     );
   }
 }
 
-export default connect(
-  (state, ownProps) => ({
-
-  }),
-  (dispatch) => ({
-
-  })
-)(MainPage);
+export default connect(mapStateToProps, mapDispatchToProps)(MainPage);

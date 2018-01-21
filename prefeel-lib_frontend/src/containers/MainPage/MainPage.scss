@@ -21,8 +21,15 @@
   }
 }
 
+.main-body {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .library-searchbar {
   text-align: center;
+  padding-bottom: 5rem;
 
   label {
     position: relative;
@@ -49,4 +56,11 @@
       color: #e0e0e0;
     }
   }
+}
+
+.library-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }

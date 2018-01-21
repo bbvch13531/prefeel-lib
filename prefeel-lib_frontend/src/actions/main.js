@@ -1,8 +1,19 @@
-export const LIBRARY_SHOW = 'LIBRARY_SHOW';
+import axios from 'axios';
+const URL = '/api/v1.0/';
 
-export function showLibrary (library) {
-  return {
-    type: LIBRARY_SHOW,
-    payload: library,
+export const LIBRARIES_GET = 'LIBRARIES_GET';
+
+export const getLibraries = () => {
+  return dispatch => {
+    axios.get(URL + 'Library')
+      .then(response => {
+        dispatch({
+          type: LIBRARIES_GET,
+          payload: response.data
+        })
+      })
+      .catch(err => {
+        console.log(err);
+      })
   };
 }

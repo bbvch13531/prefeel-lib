@@ -1,16 +1,16 @@
-import { Map } from 'immutable';
+import { Map, List } from 'immutable';
 
 import {
-  LIBRARY_SHOW,
+  LIBRARIES_GET,
 } from 'actions/main';
 
 const initialState = Map({
-  library: null,
+  libraries: List(),
 });
 
 const actionsMap = {
-  [LIBRARY_SHOW]: (state, action) => {
-    return state.set('library', action.data);
+  [LIBRARIES_GET]: (state, action) => {
+    return state.set('libraries', action.payload.libraries);
   },
 };
 
