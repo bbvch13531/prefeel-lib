@@ -5,7 +5,7 @@
 <h1 align="center">prefeel-lib</h1>
 
 <p align="center">
-	<a href="https://github.com/bbvch13531/prefeel-lib/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+	<a href="https://github.com/bbvch13531/prefeel-lib/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg">
 	<a href="https://travis-ci.org/bbvch13531/prefeel-lib"><img src="https://travis-ci.org/bbvch13531/prefeel-lib.svg?branch=master">
 	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/npm/v/npm.svg">
 	<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/node->=8-brightgreen.svg">
