@@ -17,12 +17,16 @@
 Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to typing example code and choosing library. Developers who use this project would practice typing agreed coding convention before team project get started.
 
 ## Feature
-- Team member can practice agreed coding convention through typing librarie's example code. 
-	- Setting coding convention option 
-	- Language
-	- Library 
+- Team member can practice agreed coding convention through typing libraries' example code. 
+- Setting coding convention option(tab spacing, curly braces position, naming)
+- Make a team and sharing coding convention to make team members to practice it.
 
 ## How to use
+- Select library in main page.
+- Then select project in library page.
+- Now you can typing project's code while practicing library's structure and how to use library.
+- Change tab spacing, curly braces position, naming option and coding style at sidebar.
+- Make a team and sharing coding convention to make team members to practice it.
 
 ## Bug report
 Any bug report via [github issue](https://github.com/bbvch13531/prefeel-lib/issues) is welcome!
@@ -30,6 +34,7 @@ Any bug report via [github issue](https://github.com/bbvch13531/prefeel-lib/issu
 ##  How to Contribute
 Please read CONTRIBUTING.md first.
 prefeel-lib strictly follows [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+
 ## Founders
 - Daeho Kim, https://github.com/oh3vci, oh3vci@gmail.com
 - Woochan Lee, https://github.com/WoochanLee, dldncks93@gmail.com
@@ -38,4 +43,4 @@ prefeel-lib strictly follows [Airbnb Javascript Style Guide](https://github.com/
 ## Collaborator
 
 ## License
-prefeel-lib is licensed under the GNU GENERAL PUBLIC LICENSE.
+prefeel-lib is licensed under the [GNU GENERAL PUBLIC LICENSE](https://github.com/bbvch13531/prefeel-lib/blob/master/LICENSE).
