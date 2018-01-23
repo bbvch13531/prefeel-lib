@@ -1,18 +1,12 @@
 import Library from './../../../db/models/library';
-import Folder from './../../../db/models/folder';
 
 // GET /api/v1.0/library
 export const getLibraries = (req, res) => {
+  let result = {};
   Library.find((err, libraries) => {
     if (err) return res.status(500).json({error: err});
-    res.json(libraries);
-  });
-};
-
-export const getFolders = (req, res) => {
-  Folder.find((err, projects) => {
-    if (err) return res.status(500).json({error: err});
-    res.json(projects);
+    result.libraries = libraries;
+    res.json(result);
   });
 };
 
