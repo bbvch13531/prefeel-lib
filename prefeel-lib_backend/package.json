@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "author": "bbvch13531",
-  "license": "MIT",
+  "license": "GPLv3",
   "dependencies": {
     "body-parser": "^1.18.2",
     "crypto": "^1.0.1",

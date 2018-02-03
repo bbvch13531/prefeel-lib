@@ -56,5 +56,5 @@
     "webpack-dev-server": "^2.10.0"
   },
   "author": "bbvch13531",
-  "license": "MIT"
+  "license": "GPLv3"
 }
