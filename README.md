@@ -13,16 +13,16 @@
 </p>
 
 ##  Introduction
- **prefeel-lib** is a web application for team project that allow team members to practice several libraries to adjust coding convention and library.  
-Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to typing example code and choosing library. Developers who use this project would practice typing agreed coding convention before team project get started.
+ **prefeel-lib** is a web application for the team project that allows team members to practice several libraries to adjust coding convention and library.  
+Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to type example code and choosing libraries. Developers who use this project would practice typing agreed coding convention before team project get started.
 
 ## Feature
-- Team member can practice agreed coding convention through typing libraries' example code. 
+- Team members can practice agreed coding convention through typing libraries' example code. 
 - Setting coding convention option(tab spacing, curly braces position, naming)
 - Make a team and sharing coding convention to make team members to practice it.
 
 ## How to use
-- Select library in main page.
+- Select library in the main page.
 - Then select project in library page.
 - Now you can typing project's code while practicing library's structure and how to use library.
 - Change tab spacing, curly braces position, naming option and coding style at sidebar.
