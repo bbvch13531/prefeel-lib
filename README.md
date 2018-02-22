@@ -13,7 +13,7 @@
 </p>
 
 ##  Introduction
- **prefeel-lib** is a web application for team project that allow team members to practice several libraries to adjust coding convention and library.  
+ **prefeel-lib** is a web application for the team project that allows team members to practice several libraries to adjust coding convention and library.  
 Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to typing example code and choosing library. Developers who use this project would practice typing agreed coding convention before team project get started.
 
 ## Feature
