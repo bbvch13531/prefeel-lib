@@ -28,6 +28,18 @@ Developers have in trouble in choosing library because it is hard to understand 
 - Change tab spacing, curly braces position, naming option and coding style at sidebar.
 - Make a team and sharing coding convention to make team members to practice it.
 
+## How to build
+```
+$ git clone https://github.com/bbvch13531/prefeel-lib
+
+$ cd where-you-cloned-prefeel-lib
+
+$ cd ./prefeel-lib_frontend
+
+$ npm install
+
+$ npm start
+```
 ## Bug report
 Any bug report via [github issue](https://github.com/bbvch13531/prefeel-lib/issues) is welcome!
 
