@@ -44,6 +44,7 @@
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",
+    "open-color": "^1.6.2",
     "postcss-loader": "^2.0.10",
     "postcss-smart-import": "^0.7.6",
     "react-svg-loader": "^2.1.0",
