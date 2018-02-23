@@ -7,7 +7,7 @@ import {
 
 const initialState = Map({
   isOpenDirectoryBar: true,
-  isOpenLinterBar: false,
+  isOpenLinterBar: true,
 });
 
 const actionsMap = {

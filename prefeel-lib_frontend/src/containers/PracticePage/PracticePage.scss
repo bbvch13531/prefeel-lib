@@ -1,3 +1,20 @@
+@import '~styles/variables';
+@import '~open-color/open-color';
+
 .practice-page {
-  margin-top: 3.5rem;
+  margin-top: $header-height;
+  margin-left: $sidebar-width;
+
+  .practice-section {
+    position: absolute;
+    top: $header-height;
+    left: $sidebar-width;
+    right: 0;
+    bottom: 0;
+    padding-top: 1rem;
+    padding-left: 2rem;
+
+    background-color: $oc-gray-9;
+    color: $oc-gray-3;
+  }
 }
