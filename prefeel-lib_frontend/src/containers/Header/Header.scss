@@ -1,3 +1,5 @@
+@import '~styles/variables';
+
 #header {
   position: fixed;
   left: 0;
@@ -7,7 +9,7 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin: 0 auto;
-  height: 3.5rem;
+  height: $header-height;
   align-items: center;
   background: #fafafa;
   box-shadow: 1px 1px rgba(0,0,0,0.14);

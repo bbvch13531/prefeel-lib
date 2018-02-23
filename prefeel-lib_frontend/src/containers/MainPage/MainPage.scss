@@ -1,5 +1,7 @@
+@import '~styles/variables';
+
 .main-page {
-  margin-top: 3.5rem;
+  margin-top: $header-height;
 }
 
 .main-header {
