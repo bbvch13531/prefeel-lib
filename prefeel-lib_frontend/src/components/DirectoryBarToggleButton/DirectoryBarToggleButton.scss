@@ -1,0 +1,53 @@
+@import '~styles/variables';
+@import '~open-color/open-color';
+
+.button-wrapper {
+  position: relative;
+
+  &.active {
+    background: $oc-gray-7;
+    margin: 4px;
+    svg {
+      stroke: $oc-gray-0;
+      fill: $oc-gray-0;
+    }
+    a {
+      visibility: hidden !important;
+    }
+  }
+
+  svg {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    stroke: $oc-gray-6;
+    fill: $oc-gray-6;
+    cursor: pointer;
+
+    &:hover, &:active {
+      stroke: $oc-gray-0;
+      fill: $oc-gray-0;
+    }
+  }
+
+  a {
+    visibility: hidden;
+    background-color: $oc-gray-7;
+    color: $oc-gray-2;
+    text-align: center;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    z-index: 8;
+    bottom: 8px;
+    left: $sidebar-width + 10px;
+    line-height: 30px;
+  }
+
+  &:hover {
+    a {
+      visibility: visible;
+    }
+  }
+}
