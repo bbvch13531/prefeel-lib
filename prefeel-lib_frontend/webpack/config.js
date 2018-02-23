@@ -7,6 +7,7 @@ const paths = {
   SRC: path.join(__dirname, '../src'),
   BUILD: path.join(__dirname, '../build'),
   STATIC: path.join(__dirname, '../src/static/'),
+  STYLES: path.join(__dirname, '../src/styles'),
   FONT: path.join(__dirname, '../src/static/font/'),
   IMG: path.join(__dirname, '../src/static/img'),
   SVG: path.join(__dirname, '../src/static/svg'),
@@ -185,11 +186,12 @@ if (IS_PRODUCTION) {
 // -------
 
 const resolve = {
-  extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx'],
+  extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx', '.svg'],
   modules: [
     path.join(__dirname, '../node_modules'),
     paths.SRC,
     paths.STATIC,
+    paths.STYLES,
   ],
 };
 
