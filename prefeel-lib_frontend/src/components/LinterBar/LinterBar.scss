@@ -1,0 +1,18 @@
+@import '~styles/variables';
+@import '~open-color/open-color';
+
+.linter-bar {
+  position: absolute;
+  top: $header-height;
+  left: 0 - $sidebar-width - $linter-bar-width;
+  width: $linter-bar-width;
+  height: 100%;
+  transition: left .3s ease-in-out;
+  background-color: $oc-gray-8;
+  border-right: 2px solid $oc-gray-7;
+  z-index: 7;
+
+  &.open {
+    left: $sidebar-width;
+  }
+}

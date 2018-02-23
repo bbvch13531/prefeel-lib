@@ -1,9 +1,25 @@
+@import '~styles/variables';
+@import '~open-color/open-color';
+
 .directory-bar {
   position: absolute;
-  left: -300px;
-  width: 300px;
+  top: $header-height;
+  left: 0 - $sidebar-width - $directory-bar-width;
+  width: $directory-bar-width;
+  height: 100%;
+  transition: left .2s ease-in;
+  background-color: $oc-gray-8;
+  border-right: 2px solid $oc-gray-7;
+  z-index: 7;
 
-  .open {
-    left: 0;
+  &.open {
+    left: $sidebar-width;
+  }
+
+  .project-name {
+    padding: 8px;
+    margin-left: 2px;
+    background-color: $oc-gray-7;
+    color: $oc-gray-3;
   }
 }
