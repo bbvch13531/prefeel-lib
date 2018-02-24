@@ -12,7 +12,11 @@
 	<a href="https://github.com/bbvch13531/prefeel-lib"><img src="https://img.shields.io/badge/release-v0.0.1-brightgreen.svg">
 </p>
 
-##  Introduction
+## Overview
+prefeel-lib's mainpage.
+<img src="https://lh3.googleusercontent.com/GaWEqM7yKW9LItNFRvtekRoC5DW-v5oP-Mt5p6jnJ1_1XDwQkpOc7MCAOKiMH2tgQL1LG6bAC_4EY5k8dswB=w3278-h1692-rw">
+
+## Introduction
  **prefeel-lib** is a web application for the team project that allows team members to practice several libraries to adjust coding convention and library.  
 Developers have in trouble in choosing library because it is hard to understand the library's pros and cons before you try to code it yourself. We started this project to help developers to type example code and choosing libraries. Developers who use this project would practice typing agreed coding convention before team project get started.
 
