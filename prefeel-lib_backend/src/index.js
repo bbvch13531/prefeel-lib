@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import bodyParser from 'body-parser';
 import session from 'express-session';
+import cors from 'cors';
 
 import api from './api';
 import db from './db';
@@ -17,6 +18,7 @@ const app = express();
 
 /* SETUP MIDDLEWARE */
 app.use(bodyParser.json());
++app.use(cors());
 
 app.use(session({
   secret: sessionKey,
