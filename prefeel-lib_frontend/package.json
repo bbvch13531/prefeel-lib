@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "draft-js": "^0.10.5",
+    "hoek": "^5.0.3",
     "immutable": "^3.8.2",
     "normalize-scss": "^7.0.1",
     "react": "^16.3.2",
